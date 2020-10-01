@@ -1,0 +1,5 @@
+n = int(input('Enter the number : '))
+temp = 1
+a = 0
+no = n
+while(n>0):
