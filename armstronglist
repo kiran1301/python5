@@ -3,3 +3,12 @@ temp = 1
 a = 0
 no = n
 while(n>0):
+  temp = int(n%10)
+    a = int(a+(temp*temp*temp))
+    n = int(n/10)
+    #print(n)
+print(a)
+if(a==no):
+    print('Armstrong number')
+else:
+    print('Not an armstrong number')
